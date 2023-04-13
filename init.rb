@@ -5,11 +5,11 @@ require_relative 'lib/redmine_openid_connect/hooks'
 
 Redmine::Plugin.register :redmine_openid_connect do
   name 'Redmine Openid Connect plugin'
-  author 'Alfonso Juan Dillera / Markus M. May'
+  author 'Alfonso Juan Dillera / Markus M. May / Adrian Marquis'
   description 'OpenID Connect implementation for Redmine'
-  version '0.9.4'
-  url 'https://github.com/devopskube/redmine_openid_connect'
-  author_url 'http://github.com/adillera'
+  version '1.0.0'
+  url 'https://github.com/xy795/redmine_openid_connect'
+  author_url 'https://github.com/xy795'
 
   settings :default => { 'empty' => true }, partial: 'settings/redmine_openid_connect_settings'
 end
